@@ -1,0 +1,212 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #27292c;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+section {
+  padding: 40px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-item {
+  background: #9eb2dd;
+  padding: 20px;
+  text-align: center;
+  border-color: #3463c7;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #27292c;
+  color: white;
+}
+.logo{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar{
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.about{
+  color: #2b61d6;
+  text-align: justify;
+}
+#contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#contact h2 {
+  text-align: center;
+  color: #333;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input,
+#contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#contact button {
+  padding: 10px;
+  color: white;
+  border: none;
+  background-color: #27292c;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #688bd6;
+}
+.hero {
+  display: flex;               
+  flex-direction: column;    
+  align-items: center;        
+  text-align: center;      
+}
+
+.image-container {
+  display: flex;               
+  justify-content: center;   
+  gap: 20px;                
+}
+
+.highlight {
+  max-width: 100%;            
+  height: auto;              
+  width: 400px;             
+}
+.services {
+text-align: center;
+font-size: 20px;
+margin-top: 40px;
+}
+.intro {
+padding: 40px;
+background-color: #fff;
+margin: 20px 0;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+font-size: 1.2em;
+}
+.applet-flex-container {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+.card {
+width: 18rem;
+margin-bottom: 20px;
+}
+.about-content h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.about-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.backg {
+  background-image: url("pictures/628723-camera-photography.jpg");
+  background-size: cover; 
+  background-position: center; 
+  height: 400px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+h1 {
+  color: rgb(255, 255, 255); 
+}
+.intro-sec {
+  border: 2px solid rgba(56, 2, 53, 0.8); 
+  border-radius: 8px; 
+  background-color: rgba(0, 0, 0, 0.05); 
+  max-width: 1500px; 
+  margin: 20px auto; 
+}
+
+.intro h3 {
+  color: #333;
+}
+
+.intro p {
+  color: #555; 
+}
+.image-sec {
+  text-align: center; /* Centers the image horizontally */
+  margin: 20px auto; /* Adds some margin around the section */
+}
+
+.image-sec img {
+  border: 3px solid rgba(128, 0, 128, 0.8); /* Darkish purple border */
+  border-radius: 8px; /* Optional: rounds the corners of the image */
+  padding: 5px; /* Adds space between the image and the border */
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+}
+
