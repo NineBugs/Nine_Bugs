@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINE BUGS Photography</title>
+
+<style>
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #27292c;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.cta {
+    background-color: #3463c7;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: none;
+
+}
+
+section {
+    padding: 40px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.course-item {
+    background: #9eb2dd;
+    padding: 20px;
+    text-align: center;
+    border-color: #3463c7;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b61d6;
+    color: white;
+}
+.logo{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about{
+    color: #2b61d6;
+    text-align: justify;
+}
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input,
+#contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #2b61d6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #688bd6;
+}
+.hero {
+    display: flex;               
+    flex-direction: column;    
+    align-items: center;        
+    text-align: center;      
+}
+
+.image-container {
+    display: flex;               
+    justify-content: center;   
+    gap: 20px;                
+}
+
+.highlight {
+    max-width: 100%;            
+    height: auto;              
+    width: 400px;             
+}
+</style>
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">NINE BUGS</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+      <h1 class="text-center mt-5">"Onsa Paman imong gihulat, pa reserve na!"</h1>
+  </section>
+
+  <section>
+      <div class="intro">
+          <p>Welcome to Nine Bugs Photography Reservation, your one-stop destination for easy and stress-free photography bookings. Browse our talented photographers, view their work, and book the perfect match for your special moments with just a few clicks. Capture memories that last a lifetime.</p>
+      </div>
+  </section>
+
+  <section class="Featured" id="featured">
+
+    <p>Soon</p>
+
+  </section>
+
+
+
+    <section class="Services">
+      <p>OUR PHOTOGRAPHY SERVICES</p>
+
+      <div class="applet-flex-container">
+          <div class="card">
+              <img src="birthday.jpg" class="card-img-top" alt="Birthday Photography">
+              <div class="card-body">
+                  <h5 class="card-title">Birthday</h5>
+                  <p class="card-text">Celebrate your special day with professional birthday photography.</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="graduation.jpg" class="card-img-top" alt="Graduation Photography">
+              <div class="card-body">
+                  <h5 class="card-title">Graduation</h5>
+                  <p class="card-text">Capture the milestone moments of your academic journey.</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="family.jpg" class="card-img-top" alt="Family Photography">
+              <div class="card-body">
+                  <h5 class="card-title">Family</h5>
+                  <p class="card-text">Preserve memories of your family with a professional family photoshoot.</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="couple.jpg" class="card-img-top" alt="Couple Photography">
+              <div class="card-body">
+                  <h5 class="card-title">Couple Portrait</h5>
+                  <p class="card-text">Create lasting memories with intimate couple portraits.</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="portrait.jpg" class="card-img-top" alt="Portrait Photography">
+              <div class="card-body">
+                  <h5 class="card-title">Portrait</h5>
+                  <p class="card-text">Professional portraits to reflect your personality and style.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  
+
+  <section id="Contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+  <footer class="footer">
+      <strong>NINE BUGS</strong> | Follow us on social media.
+  </footer>
+
+    
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
