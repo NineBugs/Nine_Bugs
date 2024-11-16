@@ -199,7 +199,18 @@ h1 {
   color: white;
 }
 
-.center-photo{
-
-  max-width: 1000px;
+.center-photo {
+  width: 100%; /* or set a specific width if needed */
+  height: 400px; /* Set a fixed height to match the header/footer height */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  overflow: hidden; /* Prevents image overflow */
 }
+
+.center-photo img {
+  max-width: 100%; /* Makes the image responsive */
+  max-height: 100%; /* Ensures image fits within the container */
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+}
+
