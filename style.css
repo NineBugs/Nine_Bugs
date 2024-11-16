@@ -7,7 +7,7 @@ body {
 
   margin: 0; 
   padding: 0;
-  background: linear-gradient(135deg, rgb(255, 255, 255), rgb(132, 83, 137), purple);
+  background: linear-gradient(135deg, rgb(255, 255, 255), rgb(188, 178, 189), purple);
 }
 
 header {
@@ -199,16 +199,16 @@ h1 {
   color: #555; 
 }
 .image-sec {
-  text-align: center; /* Centers the image horizontally */
-  margin: 20px auto; /* Adds some margin around the section */
+  text-align: center; 
+  margin: 20px auto; 
 }
 
 .image-sec img {
-  border: 3px solid rgba(128, 0, 128, 0.8); /* Darkish purple border */
-  border-radius: 8px; /* Optional: rounds the corners of the image */
-  padding: 5px; /* Adds space between the image and the border */
-  max-width: 100%; /* Ensures the image is responsive */
-  height: auto; /* Maintains the aspect ratio */
+  border: 3px solid rgba(128, 0, 128, 0.8); 
+  border-radius: 8px;
+  padding: 5px; 
+  max-width: 100%; 
+  height: auto; 
 }
 
 .Abouts{
