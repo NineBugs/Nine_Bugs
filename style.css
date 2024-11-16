@@ -36,14 +36,18 @@ section {
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #27292c;
   color: white;
+  background-image: url("pictures/forfooter.jpg");
+  background-size: cover; 
+  background-position: center; 
+  height: 200px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
 }
 .logo{
-  margin: 10px;
-  font-size: 50px;
+  margin: 7px;
+  font-size: 30px;
   font-weight: bold;
 }
 .navbar{
@@ -159,7 +163,7 @@ h1 {
   border: 2px solid rgba(0, 0, 0, 0.8); 
   border-radius: 8px; 
   background-color: rgba(0, 0, 0, 0.05); 
-  max-width: 1300px; 
+  max-width: 1400px; 
   margin: 20px auto; 
 }
 
