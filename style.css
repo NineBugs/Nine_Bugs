@@ -198,3 +198,8 @@ h1 {
 .bottom-phara p {
   color: white;
 }
+
+.center-photo{
+
+  max-width: 1000px;
+}
