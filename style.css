@@ -160,11 +160,19 @@ h1 {
   color: rgb(255, 255, 255); 
 }
 .intro-sec {
+  border: 2px solid rgba(255, 255, 255, 0.8); 
+  border-radius: 8px; 
+  background-color: rgba(255, 255, 255, 0.05); 
+  max-width: 1450px;  
+  margin: 20px auto; 
+}
+
+.intro{
   border: 2px solid rgba(0, 0, 0, 0.8); 
   border-radius: 8px; 
-  background-color: rgba(0, 0, 0, 0.05); 
-  max-width: 1400px; 
-  margin: 20px auto; 
+  background-color: rgba(255, 255, 255, 0.05); 
+  max-width: 1450px; 
+  margin: 5px auto; 
 }
 
 .intro h3 {
@@ -176,7 +184,7 @@ h1 {
 }
 .image-sec {
   text-align: center; 
-  margin: 20px auto; 
+  margin: 5px auto; 
 }
 
 .image-sec img {
@@ -201,7 +209,7 @@ h1 {
 
 .center-photo {
   width: 100%; 
-  height: 400px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center; 
