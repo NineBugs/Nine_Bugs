@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>NINE BUGS Photography</title>
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">NINE BUGS</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Featured/index.html">Featured</a></li>
+                <li><a href="/About us/index.html">About Us</a></li>
+                <li><a href="/Contact us/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section class="backg">
+      
+      <h1 class="text-center mt-5">"Onsa Paman imong gihulat, pa reserve na!"</h1>
+  </section>
+
+
+  <section class="image-sec">
+    <img src="/pictures/received_1013683873642037.jpeg" alt="Nine Bugs Logo">
+  </section>
+
+  
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+  <footer class="footer">
+      <strong>NINE BUGS</strong> | Follow us on social media.
+  </footer>
+
+    
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
