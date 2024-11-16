@@ -188,3 +188,13 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
+.bottom-phara {
+  border: 2px solid rgba(20, 56, 175, 0.8); 
+  border-radius: 15px; 
+  background-color:rgba(23, 40, 96, 0.8); 
+  max-width: 1000px; 
+  margin: 20px auto; 
+}
+.bottom-phara p {
+  color: white;
+}
